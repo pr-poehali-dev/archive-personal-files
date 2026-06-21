@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "name": "Get documents without auth",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 401
+    }
+  ]
+}

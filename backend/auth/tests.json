@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "name": "Get current user without auth",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 404
+    }
+  ]
+}
